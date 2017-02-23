@@ -24,6 +24,13 @@ html {
  * Remove the margin in all browsers (opinionated).
  */
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
 body {
   margin: 0;
 }
@@ -459,3 +466,16 @@ template {
 [hidden] {
   display: none;
 }
+
+/* Lists
+   ========================================================================== */
+
+/**
+ * Remove default list styles, margins, and padding
+ */
+
+ ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+ }
