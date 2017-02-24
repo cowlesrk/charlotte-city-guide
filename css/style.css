@@ -7,17 +7,24 @@
 }
 
 body {
+	font-family: 'Varela Round', sans-serif;
 	line-height: 1.6;
-	color: grey;
+	color: #3a3a3a;
+}
+
+p {
+	font-size: .95em;
+	margin-bottom: 1.5em;
 }
 
 a { 
-color: white; 
-text-decoration: none;
+	color: white; 
+	text-decoration: none;
 }
 
-h1 {
+h1, h2, h3 {
 	margin-top: 0;
+	color: #95E1D3;
 }
 
 ul {
@@ -32,6 +39,24 @@ ul {
 .name {
 	margin: 0;
 	padding: 5px 0;
+	font-size: 1.5em;
+}
+
+.main-nav li {
+	text-align: center;
+	border: 2px solid #EAFFD0;
+	margin-top: 6px;
+	margin-bottom: 6px;
+
+}
+
+.main-nav a {
+	font-size: .9em;
+	text-transform: uppercase;
+}
+
+.main-nav a:hover {
+	background-color: #F38181;
 }
 
 /* Layout Containers */
