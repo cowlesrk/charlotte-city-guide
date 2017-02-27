@@ -132,4 +132,15 @@ ul {
 		width: 300px;
 	}
 
+	.col1, .col2 {
+		width: 40%;
+		display: inline-block;
+		float: left;
+		vertical-align: top;
+	}
+
+	.col2 {
+		margin-left: 5em;
+	}
+
 }
