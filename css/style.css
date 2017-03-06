@@ -34,6 +34,12 @@ ul {
 
 /* Base Layout Styles */
 
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
 /* Navigation */
 
 
@@ -101,6 +107,7 @@ ul {
 	border-top: 5px solid #FCE38A;
 }
 
+
 /* Footer */
 
 .main-footer {
@@ -132,15 +139,20 @@ ul {
 		width: 300px;
 	}
 
+	/* Columns */
+
 	.col1, .col2 {
-		width: 40%;
-		display: inline-block;
 		float: left;
-		vertical-align: top;
+		padding-left: 1em;
+		padding-right: 1em;
+		border: solid red 1px;
 	}
 
+	.col1 {
+		width: 60%;
+	}
 	.col2 {
-		margin-left: 5em;
+		width: 40%;
 	}
 
 }
