@@ -39,13 +39,28 @@ ul {
 
 figure {
 	margin: .5em 0 0 0;
-	padding:0;
+	padding: 0;
+	position: relative;
 }
 
 figcaption {
+	font-size: .9em;
+	line-height: 1.5;
+	color: #fff;
+	padding: 1em;
 	margin: .5em 0;
+	background: rgba(19,43,102, .85);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 
+.icon-location {
+	width: 35px;
+	position: absolute;
+	top: -20px;
+	right: -15px;
+}
 /* ================================= 
   Base Layout Styles
 ==================================== */
