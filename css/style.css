@@ -105,6 +105,24 @@ ul {
 	border-top: 5px solid #FCE38A;
 }
 
+/* ---- Banner ---- */
+
+.banner {
+	background-color: #8EA1F0;
+	height: 20%;
+	padding: .5em;
+	margin: 0 auto;
+}
+
+.logo {
+	max-width: 10%;
+}
+
+.logo,
+.headline,
+.tagline {
+	margin: auto;
+}
 
 /* ---- Footer ---- */
 
