@@ -1,4 +1,6 @@
-/* Base Element Styles */
+/* ================================= 
+  Base Element Styles
+==================================== */
 
 * {
   box-sizing: border-box;
@@ -31,38 +33,36 @@ ul {
 	padding-bottom: 5px;
 }
 
-
-/* Base Layout Styles */
-
-.clearfix::after {
-	content: "";
-	display: table;
-	clear: both;
+img {
+	max-width: 100%;
 }
 
-/* Navigation */
+/* ================================= 
+  Base Layout Styles
+==================================== */
 
+
+/* ---- Navigation ---- */
 
 
 .name {
 	margin: 0;
-	padding: 10px 0;
+	padding: 20px 0 0 0;
 	font-size: 1.5em;
-	display: inline-block;
-	float: left;
 }
 
 .main-nav {
 	margin-top: 0;
 	margin-bottom: 6px;
-	float: right;
 }
 
 .main-nav li {
+	text-align: center;
 	border: 2px solid #EAFFD0;
 	margin-top: 6px;
 	margin-bottom: 6px;
 	padding: .5em;
+
 }
 
 .main-nav a {
@@ -74,18 +74,18 @@ ul {
 	background-color: #F38181;
 }
 
-.name a,
+
 .main-nav a {
 	padding: 6px 6px;
 	display: block;
 }
 
-/* Layout Containers */
+/* ---- Layout Containers ---- */
 
 .header-container {
-	padding-left: 5em;
-	padding-right: 5em;
-	padding-bottom: 3em;
+	padding-left: 0;
+	padding-right: 1em;
+	padding-bottom: 0;
 }
 
 .content-container {
@@ -96,10 +96,18 @@ ul {
 .main-header {
 	background: #95E1D3;
 	border-bottom: 5px solid #EAFFD0;
-	overflow: auto;
+	text-align: center;
 }
 
-/* Footer */
+.main-footer {
+	text-align: center;
+	padding: 2em 0;
+	background: #F38181;
+	border-top: 5px solid #FCE38A;
+}
+
+
+/* ---- Footer ---- */
 
 .main-footer {
 	padding: 2em 0;
@@ -110,20 +118,14 @@ ul {
 }
 
 
-/* Media Queries */
+/* ================================= 
+  Media Queries
+==================================== */
 
 @media (min-width: 769px) {
 
 	.wrap {
 		min-height: calc(100vh - 89px);
-	}
-
-
-	.header-container {
-		width: 70%;
-		max-width: 1000px;
-		margin: 0 auto;
-		padding: 5px;
 	}
 
 	.name,
@@ -133,22 +135,34 @@ ul {
 
 	.name {
 		width: 300px;
+		float: left;
 	}
 
-	/* Columns */
+	.main-nav {
+		float: right;
+	}
+
+	.main-header {
+		overflow: auto;
+	}
+
+	/* ---- Columns ---- */
 
 	.col1, .col2 {
+		width: 40%;
+		display: inline-block;
 		float: left;
-		padding-left: 1em;
-		padding-right: 1em;
-		border: solid red 1px;
+		vertical-align: top;
 	}
 
-	.col1 {
-		width: 60%;
-	}
 	.col2 {
-		width: 40%;
+		margin-left: 5em;
+	}
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
 	}
 
 }
