@@ -48,23 +48,22 @@ ul {
 	margin: 0;
 	padding: 10px 0;
 	font-size: 1.5em;
+	display: inline-block;
+	float: left;
 }
 
 .main-nav {
 	margin-top: 0;
 	margin-bottom: 6px;
+	float: right;
 }
 
 .main-nav li {
-	text-align: center;
 	border: 2px solid #EAFFD0;
 	margin-top: 6px;
 	margin-bottom: 6px;
 	padding: .5em;
-
 }
-
-
 
 .main-nav a {
 	font-size: .9em;
@@ -97,22 +96,19 @@ ul {
 .main-header {
 	background: #95E1D3;
 	border-bottom: 5px solid #EAFFD0;
-	text-align: center;
+	overflow: auto;
 }
-
-.main-footer {
-	text-align: center;
-	padding: 2em 0;
-	background: #F38181;
-	border-top: 5px solid #FCE38A;
-}
-
 
 /* Footer */
 
 .main-footer {
+	padding: 2em 0;
+	background: #F38181;
+	border-top: 5px solid #FCE38A;
 	color: white;
+	text-align: center;
 }
+
 
 /* Media Queries */
 
