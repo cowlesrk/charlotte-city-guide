@@ -110,8 +110,9 @@ ul {
 .banner {
 	background-color: #8EA1F0;
 	height: 20%;
-	padding: .5em;
+	padding: 3.2em 0;
 	margin: 0 auto;
+	text-align: center;
 }
 
 .logo {
@@ -122,6 +123,11 @@ ul {
 .headline,
 .tagline {
 	margin: auto;
+}
+
+.headline {
+	color: white;
+	margin-bottom: 0;
 }
 
 /* ---- Footer ---- */
@@ -169,14 +175,14 @@ ul {
 
 	/* ---- Columns ---- */
 
-	.col1, .col2 {
-		width: 40%;
+	.col {
+		width: 30%;
 		display: inline-block;
 		float: left;
 		vertical-align: top;
 	}
 
-	.col2 {
+	.col2, .col3 {
 		margin-left: 5em;
 	}
 
