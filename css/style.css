@@ -37,6 +37,15 @@ ul {
 	padding-bottom: 1em;
 }
 
+figure {
+	margin: .5em 0 0 0;
+	padding:0;
+}
+
+figcaption {
+	margin: .5em 0;
+}
+
 /* ================================= 
   Base Layout Styles
 ==================================== */
@@ -127,7 +136,6 @@ ul {
 
 .headline {
 	color: white;
-	margin-bottom: 0;
 }
 
 /* ---- Footer ---- */
@@ -146,10 +154,6 @@ ul {
 ==================================== */
 
 @media (min-width: 769px) {
-
-	.wrap {
-		min-height: calc(100vh - 89px);
-	}
 
 	.name,
 	.main-nav li {
@@ -173,6 +177,10 @@ ul {
 		padding: 0;
 	}
 
+	.tagline {
+		font-size: 1.2em;
+	}
+
 	/* ---- Columns ---- */
 
 	.col {
@@ -182,9 +190,11 @@ ul {
 		vertical-align: top;
 	}
 
+
 	.col2, .col3 {
 		margin-left: 5em;
 	}
+
 
 	.clearfix::after {
 		content: " ";
