@@ -29,12 +29,12 @@ h1, h2, h3 {
 	color: #95E1D3;
 }
 
-ul {
-	padding-bottom: 5px;
-}
-
 img {
 	max-width: 100%;
+}
+
+ul {
+	padding-bottom: 1em;
 }
 
 /* ================================= 
@@ -47,20 +47,19 @@ img {
 
 .name {
 	margin: 0;
-	padding: 20px 0 0 0;
+	padding: 15px 0 0 0;
 	font-size: 1.5em;
 }
 
 .main-nav {
-	margin-top: 0;
-	margin-bottom: 6px;
+	margin-left: .5em;
 }
 
 .main-nav li {
 	text-align: center;
 	border: 2px solid #EAFFD0;
-	margin-top: 6px;
-	margin-bottom: 6px;
+	margin-top: .5em;
+	margin-bottom: .5em;
 	padding: .5em;
 
 }
@@ -76,7 +75,7 @@ img {
 
 
 .main-nav a {
-	padding: 6px 6px;
+	padding: .3em;
 	display: block;
 }
 
@@ -84,7 +83,7 @@ img {
 
 .header-container {
 	padding-left: 0;
-	padding-right: 1em;
+	padding-right: .5em;
 	padding-bottom: 0;
 }
 
@@ -144,6 +143,10 @@ img {
 
 	.main-header {
 		overflow: auto;
+	}
+
+	ul {
+		padding: 0;
 	}
 
 	/* ---- Columns ---- */
