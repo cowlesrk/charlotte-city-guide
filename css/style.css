@@ -232,4 +232,31 @@ figcaption {
 
 }
 
+@media (max-width: 1173px) {
+
+	.col1, .col2 {
+		width: 50%;
+		display: inline-block;
+		float: left;
+		vertical-align: top;
+		overflow: auto;
+		padding-bottom: 5em;
+
+	}
+
+	.col1 {
+		margin-right: 5em;
+	}
+
+	.col2 {
+		margin: 0;
+	}
+
+	.col3 {
+		width: 50%;
+		clear: both;
+	}
+
+}
+
 
